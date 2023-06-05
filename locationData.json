@@ -1,0 +1,48 @@
+{
+  "Locations": [
+    {
+      "TQ4.1": [
+        {
+          "Name": "TQ4.1 Stage",
+          "Assignment": "Assignment: Welcome to the TQ4.1 Stage! You and your team are part of a startup business selling The Portable Pet Rock: Need a pet but don't want the hassle? This portable pet rock requires zero maintenance, provides no companionship, and won't even acknowledge your existence. You guys want to integrate a technological innovation to your product, so you have come to Fontys to pitch the project to the students.Make a video around 45 seconds where you as a stakeholder of The Portable Pet Rock explain to the students at Fontys how they would launch The Portable Pet Rock into the new millenia. Before the iPhone there was the Motorola. Before the Switch there was the GameBoy. The Portable Pet Rock is your past, what will be your future? At the stage there will be a laptop prepared that you are free to use however you like. ",
+          "Tips": "Tip: Imagine how your pitch would sound if you were a tech savvy stakeholder that’s way too into the Metaverse, Web 3.0 and the Blockchain. Or you could use your own minor specialization to persuade the students into joining your project. Use powerpoint for visuals."
+        }
+      ],
+      "UX": [
+        {
+          "Name": "UX Lab",
+          "Assignment": "Assignment: This is the UX Lab; Where it's all about user testing and observation. In front of you there is an invention called The WhizBang 1000: A gadget that combines a comb, a massage chair, and a karaoke machine. You need to prove to Fontys that this prototype works as described while simultaneously being user friendly. Make a video around 45 seconds where you show yourself/yourselves testing the product and ensure it is functioning as intended. If you were wondering: Yes. Lying about the test results is permitted as well as encouraged. They won't know. Fake it till you make it!",
+          "Tips": "Tip:  Let a ‘stranger’ test the product. They will give you their ‘unbiased’ opinion."
+        }
+      ],
+      "TQ42": [
+        {
+          "Name": "TQ4.2 Stage",
+          "Assignment": "Assignment: Welcome to the TQ4.2 Stage! You and your team are part of a startup business selling The Automatic Bad Joke Generator: Instantly become the life of the party with this device that generates the worst jokes known to humanity. Due to the invention becoming so successful, you want to make a video game adaptation of it. On this floor there are a lot of Fontys Game Design students itching to pick up a new project. Prepare a convincing video pitch around 45 seconds where you explain what the gameplay and mechanics would entail. Step aside Nintendo! The Automatic Bad Joke Generator games are going to outsell ALL your franchises! At the stage there will be a laptop prepared that you are free to use however you like. ",
+          "Tips": "Tip: Make a design challenge for the students and think of a good title for your game such as: Grand Theft Joke Generator, Super Automatic Bad Joke Bros, Plants VS Automatic Bad Joke Generators. Use powerpoint or the whiteboard for showcase visuals."
+        }
+      ],
+      "DEMO": [
+        {
+          "Name": "Demo Lab",
+          "Assignment": "Assignment: This is the Demo Lab; Here’s where you showcase your products during the semester. There are two things you can do in the Lab.You can either distract yourself by having fun playing games, we have Beat Saber set up. Or you can complete the assignment by uploading a photo: In order to win the game you will need to create your own technological art exhibition in this room. You can use the computers here to use Google, MS paint, AI or photoshop to create your own art and take a picture of your group admiring it. Make sure the art and visitors are in the frame.",
+          "Tips": "Tip: Use the remote control to bring down the curtains and use the projectors to exhibit the art on the curtains."
+        }
+      ],
+      "TQ5": [
+        {
+          "Name": "TQ5 Stage",
+          "Assignment": "Assignment: Welcome to the TQ5 Stage! You and your team are part of a startup business selling The WhizBang 3000: A gadget that combines a toaster, a hairdryer, and a projector all into one. You became so successful that you were asked to give a lecture here, at the biggest stage on TQ. Make a short video around 45 seconds where you teach Fontys Students on how you achieve a successful business. The video needs to include a technology people need to use to guarantee their success and a great, inspiring motivational quote. If they don’t listen to the people behind the WhizBang 3000 they might as well be WhizDone 3000!  At the stage there will be a laptop prepared that you are free to use however you like. ",
+          "Tips": "Tip: Use AI to create the WhizBang 3000 image and powerpoint to showcase visuals."
+        }
+      ],
+      "CREATE": [
+        {
+          "Name": "Create Lab",
+          "Assignment": "Assignment: This is the Create Lab: Where it's all about prototyping your products during the semester. In front of you lies a broken prototype, it just so happened to break precisely before the user test. You must breathe new life into this collapsed prototype. You may build it into whatever you wish. Once completed you will take a picture of it and upload it. At the end of the onboarding game you will have to explain what your prototype does and what makes it unique from the other mock-ups.",
+          "Tips": "Tip: If the presentation of your prototype proves to be more than satisfactory it will have a higher chance of winning. If you need extra arts & crafts tools to work with, head to the ISSD to find them."
+        }
+      ]
+    }
+  ]
+}

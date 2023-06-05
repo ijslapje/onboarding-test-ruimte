@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student App - Waiting Room</title>
+  <link rel="stylesheet" type="text/css" href="css/gameStyle.css">
+</head>
+<body>
+  <div class="container">
+    <div id="loadingContainer" class="waiting-container">
+      <h1 class="waiting-message">Waiting for the Game to Start</h1>
+      <div class="loading-spinner"></div>
+    </div>
+    <div id="continueContainer" class="hidden waiting-container">
+      <h1 class="waiting-message">Game Started!</h1>
+      <button id="continueButton" class="continue-button">Continue</button>
+    </div>
+  </div>
+  <script type="module" src="js/game-load.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student App - Game</title>
+  <link rel="stylesheet" type="text/css" href="css/gameStyle.css">
+</head>
+<body>
+  <div class="game-container">
+    <div id="instruction"></div>
+    <div id="timer">00:00</div>
+    <div class="timeline">
+      <div class="timeline-item active">1</div>
+      <div class="timeline-item">2</div>
+      <div class="timeline-item">3</div>
+      <div class="timeline-item">4</div>
+      <div class="timeline-item">5</div>
+      <div class="timeline-item">6</div>
+    </div>
+    <div id="locationName"></div>
+    <div id="assignments">
+      <div id="assignment"></div>
+      <div id="tips"></div>
+    </div>
+    <form id="uploadForm" enctype="multipart/form-data">
+      <label for="imageInput" id="uploadButton" class="upload-button">Upload</label>
+      <input type="file" name="image" id="imageInput">
+    </form>
+  </div>
+  <script type="module" src="js/game-play.js"></script>
+  <script>
+    function uploadImage() {
+      const file = this.files[0];
+
+      if (file) {
+        const uploadButton = document.getElementById('uploadButton');
+
+        const formData = new FormData();
+        formData.append('image', file);
+
+        const request = new XMLHttpRequest();
+        request.open('POST', '/upload-image');
+        request.onreadystatechange = function() {
+          if (request.readyState === 4) {
+            if (request.status === 200) {
+              uploadButton.textContent = 'Uploaded!';
+              uploadButton.style.backgroundColor = '#009ec4';
+              window.alert('Successfully uploaded your file!');
+
+              setTimeout(function() {
+                uploadButton.textContent = 'Upload';
+                uploadButton.style.backgroundColor = '#ff9eda';
+              }, 2000);
+
+            } else {
+              window.alert('FAILED TO UPLOAD...');
+            }
+          }
+        };
+
+        request.send(formData);
+      }
+    }
+
+    // Add event listener to the file input to trigger the uploadImage function when a file is selected
+    document.getElementById('imageInput').addEventListener('change', uploadImage);
+  </script>
+</body>
+</html>
